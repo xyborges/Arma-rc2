@@ -1,0 +1,17 @@
+#include <YSI-Includes\YSI_Coding\y_hooks>
+hook OnGameModeInit(){
+	//aero sf
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 476, -1561.0111, -252.5325, 14.9974, 0.0000, -1, -1, 100);
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 476, -1571.3295, -257.3671, 14.9974, 0.0000, -1, -1, 100);
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 476, -1581.5172, -261.3560, 14.9974, 0.0000, -1, -1, 100);
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 520, -1497.0540, -192.4540, 15.4259, 0.0000, -1, -1, 100);
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 520, -1507.4194, -197.9016, 15.4259, 0.0000, -1, -1, 100);
+	//base
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 470, -573.9758, -44.8869, 64.4635, 180.0000, -1, -1, 100);
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 470, -570.1121, -44.8888, 64.4635, 180.0000, -1, -1, 100);
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 470, -575.1916, -57.8528, 64.4635, 270.0000, -1, -1, 100);
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 470, -575.1376, -62.1095, 64.4635, 270.0000, -1, -1, 100);
+	CriarVeiculo(EXERCITO_DE_ISRAEL, 433, -533.1650, -169.3198, 78.8749, 0.0000, -1, -1, 100);
+	infoorg[EXERCITO_DE_ISRAEL][textoponto] = CreateDynamic3DTextLabel("{33ccff}PONTOS ISRAEL:\n0", -1, -497.7471,-47.9496,60.0649, 80.0);
+	return 1;
+}
